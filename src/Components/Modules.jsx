@@ -24,17 +24,19 @@ const Modules = () => {
                 <h2 class="ff-work medium1 fw-7 color-black text-center mb-60">Why Choose <span class="linear-gradient"> Maître
                     D?</span>
                 </h2>
-                <div className="row align-items-center justify-content-center mb-md-110 mb-40">
-                    <div className="col-md-6 col-12 d-flex justify-content-center">
-                        <div>
-                            <img className='mw-440 w-100' src={Moduleimg} alt="sec-1-img" />
+                <div className="module-card">
+                    <div className="row  mb-md-110 mb-40">
+                        <div className="col-md-6 col-12 d-flex align-end justify-content-center">
+
+                            <img className='mw-440  w-100' src={Moduleimg} alt="sec-1-img" />
+
                         </div>
-                    </div>
-                    <div className="col-md-6 col-12">
-                        <p className='small3 fw-l black-0 ff-work pb-15'>Manage Your <span className='linear-gradient'> Customer Queues</span></p>
-                        <p className='small1 fw-normal black-0 ff-work op-7 lh-150 mb-md-30 mb-14 mw_470'>The Maitre D queue management system is designed to allow your customers to sign up for walk-in appointments and select the services they want ahead of time. The queue will provide them with estimated wait times, costs and will allow them to even select their preferred stylist.</p>
-                        <p className='small1 fw-normal black-0 ff-work op-7 lh-150 mb-md-30 mb-14 mw_470'>As the queue gets bigger or smaller, its easy to monitor your operations and understand when wait periods are getting too long to service your customer base and to better resource your stores during busy periods. Beat the frustration of your customers ahead of time and help manage how they wait for your services</p>
-                        <button className='small2 fw-l ff-work white-F orange-btn '>Buy Now</button>
+                        <div className="col-md-6 col-12 py-30 ">
+                            <p className='small3 fw-l black-0 ff-work pb-15'>Manage Your <span className='linear-gradient'> Customer Queues</span></p>
+                            <p className='small1 fw-normal black-0 ff-work op-7 lh-150 mb-md-30 mb-14 mw_470'>The Maitre D queue management system is designed to allow your customers to sign up for walk-in appointments and select the services they want ahead of time. The queue will provide them with estimated wait times, costs and will allow them to even select their preferred stylist.</p>
+                            <p className='small1 fw-normal black-0 ff-work op-7 lh-150 mb-md-30 mb-14 mw_470'>As the queue gets bigger or smaller, its easy to monitor your operations and understand when wait periods are getting too long to service your customer base and to better resource your stores during busy periods. Beat the frustration of your customers ahead of time and help manage how they wait for your services</p>
+                            <button className='small2 fw-l ff-work white-F orange-btn mb-40'>Buy Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
