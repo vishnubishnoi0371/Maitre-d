@@ -6,24 +6,18 @@ import Sectiontwo from './Components/Sectiontwo';
 import Modules from './Components/Modules';
 import Pricing from './Components/Pricing';
 import Contactus from './Components/Contactus';
-
 import Footer from './Components/Footer';
-
 function App() {
   return (
     <div className="App">
       <Header />
       <Sectionone />
       <Sectiontwo />
-      <Modules/>
+      <Modules />
       <Pricing />
       <Contactus />
-     
       <Footer />
     </div>
   );
 }
-
 export default App;
-
-

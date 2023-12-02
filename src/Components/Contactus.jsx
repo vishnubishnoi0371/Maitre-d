@@ -1,6 +1,5 @@
 import React from 'react'
 import Pricingimg from '../assets/images/pricing-img-1.png'
-
 const Contactus = () => {
     return (
         <div id='Contact'>

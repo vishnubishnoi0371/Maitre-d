@@ -1,7 +1,5 @@
 import React from 'react'
 import Moduleimg from '../assets/images/modules-img.png'
-
-
 const Modules = () => {
     return (
         <div id='Modules'>
@@ -19,7 +17,6 @@ const Modules = () => {
                         </defs>
                     </svg>
                     </a>
-
                 </div>
                 <h2 class="ff-work medium1 fw-7 color-black text-center mb-60">Why Choose <span class="linear-gradient"> Maître
                     D?</span>
@@ -41,5 +38,4 @@ const Modules = () => {
         </div>
     )
 }
-
 export default Modules

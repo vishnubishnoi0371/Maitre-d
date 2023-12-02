@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Header = () => {
     return (
         <div>
@@ -7,7 +6,6 @@ const Header = () => {
                 <nav className="bg-clr ">
                     <div className="container ">
                         <div className="d-flex align-items-center justify-space-between pt-25">
-
                             <div className='d-flex align-items-center gap-12'>
                                 <a href=""><svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M28.6133 7.40008V4.93341H37V38.9734H0.493333L0 4.93341H8.38667V7.40008H4.44L18.7467 27.1334L33.0533 7.40008H28.6133Z" fill="black" />
@@ -50,10 +48,7 @@ const Header = () => {
 
 
                             </ul>
-
                         </div>
-
-
                     </div>
                 </nav>
                 <div className='mt-md-110 mt-40 position-relative z_1'>
@@ -67,10 +62,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-
-
         </div >
     )
 }
-
 export default Header

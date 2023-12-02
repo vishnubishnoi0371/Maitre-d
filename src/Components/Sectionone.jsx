@@ -1,6 +1,5 @@
 import React from 'react'
 import sec1img from '../assets/images/sec-1-img.png'
-
 const Sectionone = () => {
   return (
     <div id='Home' className='container'>
@@ -24,7 +23,6 @@ const Sectionone = () => {
               </defs>
             </svg>
             </a>
-
           </div>
           <p className='medium1 black-0 ff-work fw-l pb-15'>What is <span className='linear-gradient'> Maître D?</span></p>
           <p className='small1 fw-normal black-0 ff-work op-7 mw_430 lh-168'>Maître D is a full service solution, designed specifically for salons and barbershops. Our approach is modular, which means you only pay for the functionality that you need. Each module is completely integrated into the solution, so your entire business always remains syncronized. Maître D allows you to see everything within your business, from one location. </p>
@@ -33,5 +31,4 @@ const Sectionone = () => {
     </div>
   )
 }
-
 export default Sectionone

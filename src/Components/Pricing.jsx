@@ -1,7 +1,5 @@
 import React from 'react'
 import toggle from '../assets/images/toggle-img.png'
-
-
 const Pricing = () => {
     return (
         <div id='Pricing'>
@@ -193,7 +191,6 @@ const Pricing = () => {
                                 <p className='medium3 ff-work fw-semibold white-F'>$449</p>
                                 <p className='small fw-medium ff-work white-F'>/month</p>
                             </div>
-
                         </div>
                         <button className='small2 fw-l ff-work white-F orange-btn mt-30'>Buy Now</button>
                     </div>
