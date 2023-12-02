@@ -27,9 +27,7 @@ const Modules = () => {
                 <div className="module-card">
                     <div className="row  mb-md-110 mb-40">
                         <div className="col-md-6 col-12 d-flex align-end justify-content-center">
-
                             <img className='mw-440  w-100' src={Moduleimg} alt="sec-1-img" />
-
                         </div>
                         <div className="col-md-6 col-12 py-30 ">
                             <p className='small3 fw-l black-0 ff-work pb-15'>Manage Your <span className='linear-gradient'> Customer Queues</span></p>

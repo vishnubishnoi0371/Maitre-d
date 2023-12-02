@@ -1,4 +1,5 @@
 import React from 'react'
+import cardcircle from '../assets/images/card-circle.png'
 
 const Sectiontwo = () => {
     return (
@@ -27,6 +28,7 @@ const Sectiontwo = () => {
                         <div class="row pt-50 align-items-center justify-content-center">
                             <div class="col-lg-4 ">
                                 <div class="sec-2-card my-3 mx-lg-0 mx-auto position-relative z-2">
+                                    <img className='card-circle-set' src={cardcircle} alt="card-circle" />
                                     <div class="svg-card d-flex justify-content-center align-items-center mx-auto">
                                         <svg width="61" height="55" viewBox="0 0 61 55" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -44,6 +46,7 @@ const Sectiontwo = () => {
                             </div>
                             <div class="col-lg-4  mt-20 mt-sm-0">
                                 <div class="sec-2-card my-3 mx-lg-0 mx-auto position-relative z-2">
+                                    <img className='card-circle-set' src={cardcircle} alt="card-circle" />
                                     <div class="svg-card d-flex justify-content-center align-items-center mx-auto">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="52" viewBox="0 0 43 52"
                                             fill="none">
@@ -72,6 +75,7 @@ const Sectiontwo = () => {
                             </div>
                             <div class="col-lg-4  mt-sm-20">
                                 <div class="sec-2-card my-3 mx-lg-0 mx-auto position-relative z-2">
+                                    <img className='card-circle-set' src={cardcircle} alt="card-circle" />
                                     <div class="svg-card d-flex justify-content-center align-items-center mx-auto">
                                         <svg width="53" height="56" viewBox="0 0 53 56" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">

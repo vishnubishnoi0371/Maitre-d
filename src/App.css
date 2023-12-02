@@ -209,10 +209,7 @@
 
 .sec-2-card:hover p {
     color: var(--white-F) !important;
-
 }
-
-
 
 .mw-220 {
     max-width: 220px;
@@ -232,6 +229,12 @@
 
 .sec-2-card:hover svg path {
     fill: url("#paint0_linear_18848_2023");
+}
+
+.card-circle-set {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .pt-50 {
